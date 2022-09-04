@@ -1,0 +1,23 @@
+.nav-left {
+    width: 296px;
+    // height: 100vh;
+  }
+  
+.min-100-vh {
+    min-height: 100vh;
+}
+
+
+.nav-link.active {
+    color: $success;
+}
+
+.nav-link.active::before {
+    color: $success;
+    position: absolute;
+    content: '';
+    left: -32px;
+    width: 4px;
+    height: 32px;
+    border-left: 4px solid $success;
+}
